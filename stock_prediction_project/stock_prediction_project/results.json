@@ -1,0 +1,32 @@
+{
+  "regression": {
+    "Naive (predict 0)": {
+      "rmse": 0.01545,
+      "mae": 0.01098,
+      "r2": null
+    },
+    "Linear Regression": {
+      "rmse": 0.0156,
+      "mae": 0.0112,
+      "r2": -0.0203
+    },
+    "Random Forest": {
+      "rmse": 0.01563,
+      "mae": 0.0111,
+      "r2": -0.0234
+    }
+  },
+  "classification": {
+    "Naive (majority class)": {
+      "accuracy": 0.4897
+    },
+    "Logistic Regression": {
+      "accuracy": 0.4897,
+      "roc_auc": 0.4753
+    },
+    "Random Forest": {
+      "accuracy": 0.5138,
+      "roc_auc": 0.4988
+    }
+  }
+}
